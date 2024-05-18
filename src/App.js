@@ -10,7 +10,7 @@ function App() {
           Edit <mark>src/App.js</mark> and save to reload.
         </p>
         <h5>
-          Edit  and save to reload.
+          Edit    and save to reload.
         </h5>
 
         <a
