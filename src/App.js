@@ -1,28 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import logo from './background.jpg'
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          lets learn React.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <body>
 
-      </header>
+    <h1>The mask-image Property</h1>
+    
+    <h3>An image with a mask layer image:</h3>
+    <div class="masked">
+    <img src={logo} alt="Cinque Terre" width="800" height="400"/>
     </div>
+    
+    <h3>Original image:</h3>
+    <img src={logo} alt="Cinque Terre" width="800" height="400"/>
+    
+    </body>
   );
 }
 

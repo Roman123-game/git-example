@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  height: 100%;
+  width:100%;
 
 }
 
@@ -38,3 +39,12 @@
     transform: rotate(180deg);
   }
 }
+.masked{
+  -webkit-mask-image: url('../public/alpha-mask.png');
+  mask-image: url('../public/alpha-mask.png');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  /* color :white */
+
+}
+
